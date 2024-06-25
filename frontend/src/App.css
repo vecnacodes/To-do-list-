@@ -1,0 +1,56 @@
+/* App.css */
+body {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: rgb(246, 202, 229);
+  font-style: Arial(sans-serif);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  max-width: 600px;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 50%;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.task {
+  background-color: #eeeeee;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  text-align: left;
+}
